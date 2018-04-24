@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="commalindah.httpsgithub.sortingnumbers.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:padding="25dp"
+                android:text="Sorting Numbers"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tv_information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_title"
+                android:layout_margin="16dp"
+                android:text="Please enter 10 numbers to sort below:"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_num_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/tv_information"
+                android:layout_margin="16dp"
+                android:text="Number 1:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_num_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_num_one"
+                android:layout_margin="16dp"
+                android:layout_toRightOf="@id/tv_num_one"
+                android:hint="First Number"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_num_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/tv_num_one"
+                android:layout_margin="16dp"
+                android:text="Number 2:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_num_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_num_two"
+                android:layout_margin="16dp"
+                android:layout_toRightOf="@id/tv_num_two"
+                android:hint="Second Number"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_num_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/tv_num_two"
+                android:layout_margin="16dp"
+                android:text="Number 3:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_num_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_num_three"
+                android:layout_margin="16dp"
+                android:layout_toRightOf="@id/tv_num_three"
+                android:hint="Third Number"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_num_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/tv_num_three"
+                android:layout_margin="16dp"
+                android:text="Number 4:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_num_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_num_four"
+                android:layout_margin="16dp"
+                android:layout_toRightOf="@id/tv_num_four"
+                android:hint="Fourth Number"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_num_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/tv_num_four"
+                android:layout_margin="16dp"
+                android:text="Number 5:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_num_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_num_five"
+                android:layout_margin="16dp"
+                android:layout_toRightOf="@id/tv_num_five"
+                android:hint="Fifth Number"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_num_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/tv_num_five"
+                android:layout_margin="16dp"
+                android:text="Number 6:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_num_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_num_six"
+                android:layout_margin="16dp"
+                android:layout_toRightOf="@id/tv_num_six"
+                android:hint="Sixth Number"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_num_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/tv_num_six"
+                android:layout_margin="16dp"
+                android:text="Number 7:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_num_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_num_seven"
+                android:layout_margin="16dp"
+                android:layout_toRightOf="@id/tv_num_seven"
+                android:hint="Seventh Number"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_num_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/tv_num_seven"
+                android:layout_margin="16dp"
+                android:text="Number 8:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_num_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_num_eight"
+                android:layout_margin="16dp"
+                android:layout_toRightOf="@id/tv_num_eight"
+                android:hint="Eighth Number"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_num_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/tv_num_eight"
+                android:layout_margin="16dp"
+                android:text="Number 9:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_num_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_num_nine"
+                android:layout_margin="16dp"
+                android:layout_toRightOf="@id/tv_num_nine"
+                android:hint="Ninth Number"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_num_ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/tv_num_nine"
+                android:layout_margin="16dp"
+                android:text="Number 10:"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_num_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_num_ten"
+                android:layout_margin="16dp"
+                android:layout_toRightOf="@id/tv_num_ten"
+                android:hint="Tenth Number"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_error_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_num_ten"
+                android:layout_margin="16dp"
+                android:textAlignment="center"
+                android:textColor="#AA0000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_sorted_lists"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_num_ten"
+                android:layout_margin="16dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#0000CC" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
+
+
+
+
+
+
